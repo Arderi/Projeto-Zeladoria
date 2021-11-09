@@ -245,6 +245,8 @@ nav a:hover{
 
 
 
+
+
 @media (max-width: 900px)
 {
     
@@ -290,7 +292,7 @@ nav a:hover{
 
    .footer h3{
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 10%;
    }
 
     .footer li{
@@ -320,6 +322,16 @@ nav a:hover{
 
 }
 
+@media (max-width:700px){
+    .container h2{
+        top: 37%;
+        left: 39%;
+    }
+
+}
+
+
+
 @media (max-width:540px){
     .container h2{
         top: 43%;
@@ -327,6 +339,15 @@ nav a:hover{
     }
 
 }
+
+@media (max-width: 539px){
+    .container h2{
+        top: 38%;
+        left:36%;
+   }
+}
+
+
 
 @media (max-width: 420px){
     .container h2{
@@ -378,6 +399,14 @@ nav a:hover{
 
 }
 
+@media (max-width:420px){
+    .container h2{
+        top:37%;
+        left:33%;
+    }
+
+}
+
 
 @media (max-width:375px){
     @media (height:812px) {
@@ -403,15 +432,16 @@ nav a:hover{
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 358px){
     nav ul li a{
         font-size: 8px;
         padding:8px;
     }
 
     .container h2{
-        top: 57%;
+        top: 39%;
         left:30%;
    }
 
 }
+
