@@ -342,10 +342,11 @@ nav a:hover{
 
 @media (max-width: 539px){
     .container h2{
-        top: 38%;
+        top: 40%;
         left:36%;
    }
 }
+
 
 
 
@@ -363,29 +364,16 @@ nav a:hover{
    }
 }
 
+
+
+
+
 @media (max-width: 411px){
     .container h2{
-        top: 43%;
+        top: 45%;
         left:32%;
    }
 }
-
-@media (max-width: 400px){
-    nav ul li a{
-        font-size: 9px;
-        padding:10px;
-    }
-
-}
-
-
-@media (max-width: 375px){
-    .container h2{
-        top: 49%;
-        left:33%;
-   }
-}
-
 
 @media (max-width:411px){
     @media (height:823px) {
@@ -399,13 +387,25 @@ nav a:hover{
 
 }
 
-@media (max-width:420px){
-    .container h2{
-        top:37%;
-        left:33%;
+@media (max-width: 430px){
+    nav ul li a{
+        font-size: 9px;
+        padding:10px;
     }
-
+    .container h2{
+        top: 38%;
+        left:33%;
+   }
 }
+
+
+@media (max-width: 375px){
+    .container h2{
+        top: 49%;
+        left:33%;
+   }
+}
+
 
 
 @media (max-width:375px){
@@ -422,9 +422,9 @@ nav a:hover{
 
 
 
-@media (max-width:360px){
+@media (max-width:390px){
     .container h2{
-        top: 51%;
+        top: 37%;
 
     }
 
@@ -445,3 +445,16 @@ nav a:hover{
 
 }
 
+
+@media (max-width: 300px){
+    nav ul li a{
+        font-size: 8px;
+        padding:8px;
+    }
+
+    .container h2{
+        top: 57%;
+        left:30%;
+   }
+
+}
