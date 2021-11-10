@@ -391,6 +391,26 @@ nav a:hover{
 }
 
 
+@media (max-width:400px){
+    .container h2{
+        top: 38%;
+        left: 36%;
+    }
+
+
+}
+
+@media (max-width:400px){
+    @media (max-height:600px) {
+        .container h2{
+            top:52%;
+            left:35%;
+        }
+
+
+    }
+
+}
 
 
 @media (max-width:390px){
