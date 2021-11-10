@@ -245,7 +245,26 @@ nav a:hover{
 
 
 
+@media (max-width: 1024px){
+    .logo{ 
+        margin-left: 80px;
+    }
+    .container h2{
+        top: 24%;
+        left:44%;
 
+    }
+    
+}
+
+
+@media (max-width:960px) {
+    .container h2{
+        top: 36%;
+        left: 43%;
+    }    
+
+}
 
 @media (max-width: 900px)
 {
@@ -302,21 +321,11 @@ nav a:hover{
 }
 
 
-@media (max-width: 1024px){
-    .logo{ 
-        margin-left: 80px;
-    }
-    .container h2{
-        top: 24%;
-        left:44%;
 
-    }
-    
-}
 
 @media (max-width:768px) {
     .container h2{
-        top: 31%;
+        top: 32%;
         left: 43%;
     }    
 
@@ -330,7 +339,13 @@ nav a:hover{
 
 }
 
+@media (max-width:600px){
+    .container h2{
+        top: 38%;
+        left: 39%;
+    }
 
+}
 
 @media (max-width:540px){
     .container h2{
@@ -347,16 +362,17 @@ nav a:hover{
    }
 }
 
+@media (max-width:480px){
+    @media (max-height:600px) {
+        .container h2{
+            top:54%;
+            left:39%;
+        }
 
 
+    }
 
-@media (max-width: 420px){
-    .container h2{
-        top: 43%;
-        left:32%;
-   }
 }
-
 
 @media (max-width: 430px){
     nav ul li a{
@@ -368,6 +384,15 @@ nav a:hover{
         left:33%;
    }
 }
+
+
+@media (max-width: 420px){
+    .container h2{
+        top: 43%;
+        left:32%;
+   }
+}
+
 
 @media (max-width: 414PX){
     .container h2{
@@ -477,6 +502,18 @@ nav a:hover{
         left:30%;
    }
 
+}
+
+
+
+@media (max-width:320px){
+    @media (height:640px){
+        .container h2{
+            top: 51%;
+    
+        }
+
+    }
 }
 
 @media (max-width:320px){
